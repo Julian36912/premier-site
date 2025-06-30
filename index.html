@@ -2,10 +2,65 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Mon premier site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NeuroStack - Vitrine d’objets</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Bienvenue sur mon site !</h1>
-  <p>Ceci est ma première page web en ligne.</p>
+
+<header>
+  <div class="container">
+    <h1 class="logo">NeuroStack</h1>
+    <nav>
+      <a href="#accueil" class="active">Accueil</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section id="accueil" class="hero">
+  <div class="container">
+    <h2>Découvrez nos sélections exclusives</h2>
+    <p>Des objets innovants sélectionnés pour vous, avec des offres spéciales.</p>
+  </div>
+</section>
+
+<section class="catalogue container">
+  <article class="card fade-in">
+    <img src="https://via.placeholder.com/300x200?text=Objet+1" alt="Objet 1" />
+    <h3>Objet Innovant 1</h3>
+    <p>Une description courte et accrocheuse de l'objet 1.</p>
+    <a href="https://exemple-affilie.com/produit1" target="_blank" rel="noopener" class="btn">Voir sur le site</a>
+  </article>
+
+  <article class="card fade-in">
+    <img src="https://via.placeholder.com/300x200?text=Objet+2" alt="Objet 2" />
+    <h3>Objet Innovant 2</h3>
+    <p>Une description courte et accrocheuse de l'objet 2.</p>
+    <a href="https://exemple-affilie.com/produit2" target="_blank" rel="noopener" class="btn">Voir sur le site</a>
+  </article>
+
+  <article class="card fade-in">
+    <img src="https://via.placeholder.com/300x200?text=Objet+3" alt="Objet 3" />
+    <h3>Objet Innovant 3</h3>
+    <p>Une description courte et accrocheuse de l'objet 3.</p>
+    <a href="https://exemple-affilie.com/produit3" target="_blank" rel="noopener" class="btn">Voir sur le site</a>
+  </article>
+</section>
+
+<section class="video container">
+  <h2>Présentation vidéo</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    title="Présentation NeuroStack" frameborder="0" allowfullscreen></iframe>
+</section>
+
+<footer id="contact">
+  <div class="container">
+    <p>© 2025 NeuroStack. Tous droits réservés.</p>
+    <p>Contact : contact@neurostack.fr</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
